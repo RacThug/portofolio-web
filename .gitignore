@@ -42,3 +42,7 @@ next-env.d.ts
 
 # Brainstorming companion sessions
 .superpowers/
+
+# Playwright
+test-results/
+playwright-report/
