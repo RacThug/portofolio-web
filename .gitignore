@@ -1,0 +1,10 @@
+# Brainstorming companion sessions
+.superpowers/
+
+# Dependencies / build (for later)
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+!.env.example
