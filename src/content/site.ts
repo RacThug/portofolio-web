@@ -1,5 +1,7 @@
 import type { SiteContent } from "./types";
 
+export const siteUrl = "https://portofolio-web.vercel.app";
+
 export const site: SiteContent = {
   name: "Adi Sukma",
   role: "Fullstack Web Developer",
