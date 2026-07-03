@@ -11,8 +11,8 @@ export function Experience() {
         <SectionHeading id="experience" label="experience" title="Where I've worked" />
         <ol className="relative ml-1 space-y-10 border-l border-line pl-8">
           {experience.map((e, i) => (
-            <Reveal key={e.company} delay={i * 0.05}>
-              <li className="relative">
+            <li key={e.company} className="relative">
+              <Reveal delay={i * 0.05}>
                 <span
                   className="absolute -left-[37px] top-1.5 h-2.5 w-2.5 rounded-full border-2 border-accent-500 bg-bg"
                   aria-hidden
@@ -26,8 +26,8 @@ export function Experience() {
                   {e.summary}
                 </p>
                 {e.stack && <p className="mt-2 font-mono text-xs text-accent-400">{e.stack}</p>}
-              </li>
-            </Reveal>
+              </Reveal>
+            </li>
           ))}
         </ol>
         <Reveal delay={0.1}>

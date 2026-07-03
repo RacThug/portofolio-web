@@ -6,7 +6,8 @@
   --color-line: #1e293b;
   --color-fg: #f8fafc;
   --color-fg-secondary: #94a3b8;
-  --color-fg-muted: #64748b;
+  /* #64748b fails WCAG AA small-text contrast (4.06:1 on bg); #7c8ba1 passes on bg and surface */
+  --color-fg-muted: #7c8ba1;
   --color-accent-400: #60a5fa;
   --color-accent-500: #3b82f6;
   --color-accent-600: #2563eb;
